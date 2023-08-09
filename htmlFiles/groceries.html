@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <link
+      rel="shortcut icon"
+      href="/images/favicon.ico?v=2"
+      type="image/x-icon"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/groceries-page-styles.css" />
+</head>
+<body class="groceries-page">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    
+        <a class="navbar-brand" href=""><img src="/images/hk-img.jpg" alt="main-logo" class="logo-img"></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+        <uL class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class= "nav-link" href="groceries.html">Groceries</a>
+            </li>
+        </uL>
+        </div>
+    </nav>
+
+
+    <div class="flipping-po-up">
+        <h1>Get All Your Home Needs</h1>
+        <img src="/Music/curved_arrow.png" alt="">
+    </div>
+
+
+    <section id="groceries">
+
+
+        <!-- pop up msg box -->
+
+        <div class="content container-fluid">
+            <div onclick="togglePopup()" class="close-btn">
+                ×
+            </div>
+            
+            <div class="actual-msg">
+                <h4>Cart</h4>
+      
+            <p class="pop-up-msg"></p>
+            </div>
+                
+            
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/cofe-tin.webp" alt="">
+                        <p>Levista Strong Instant Coffee 200 gm Can</p>
+                        <div class="price">
+                            <b>299/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/wheet.jpg" alt="">
+                        <p>Aashirvaad Superior MP Atta, 5kg Pack</p>
+                        <div class="price"><b>289/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/raisins.webp" alt="">
+                        <p>Vedaka Popular Raisins, 1 kg</p>
+                        <div class="price"><b>397/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/safola-oats.webp" alt="">
+                        <p>Saffola Masala Oats|Healthy Snack</p>
+                        <div class="price"><b>159/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/oil.webp" alt="">
+                        <p>Refined Sunflower Oil, 5L Can</p>
+                        <div class="price"><b>715/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/surfexel.webp" alt="">
+                        <p>Surf Excel Matic LiquidDetergent|2l pack</p>
+                        <div class="price"><b>435/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/sugar.webp" alt="">
+                        <p>Parry's White Label Sugar, 1kg</p>
+                        <div class="price"><b>45/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/honey.webp" alt="">
+                        <p>DiSano Pure Honey 500 g </p>
+                        <div class="price"><b>109/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/rice.jpg" alt="">
+                        <p>India Gate Basmati Rice Rozana,5kg</p>
+                        <div class="price"><b>429/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/peanut-butter.jpg" alt="">
+                        <p>Peanut Butter - 350gm </p>
+                        <div class="price"><b>148/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/turmeric.jpg" alt="">
+                        <p>Tata Sampann Turmeric Powder-200g</p>
+                        <div class="price"><b>50/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <img src="/images/groceries-images/almonds.webp" alt="">
+                        <p>Raw California Almonds 1Kg</p>
+                        <div class="price"><b>818/-</b></div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn cart">Add to Cart</button>
+                        <button class="btn buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

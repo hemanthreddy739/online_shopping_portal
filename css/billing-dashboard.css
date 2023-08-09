@@ -1,0 +1,23 @@
+
+
+body{
+    background-color: powderblue;
+}
+
+
+.billing-buttons{
+    margin:7%;
+    text-align: center;
+}
+
+.billing-buttons button{
+    margin:2%;
+}
+
+.bill-summary{
+    text-align: center;
+    border-radius:50px;
+    margin:10% 18%;
+    background-color: white
+}
+

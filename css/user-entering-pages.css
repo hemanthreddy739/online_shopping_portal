@@ -1,0 +1,28 @@
+input{
+    padding:1% 10% 1% 1%;
+}
+.sign-up,.login,.pass-reset{
+    text-align: center;
+    border-radius:50px;
+    margin:10% 8%;
+    background-color: white;
+}
+
+.Logo{
+    width: 150px;
+    height: 150px;
+    margin: 30px 0;
+}
+
+.slButtons{
+    padding:1% 12%;
+}
+
+fieldset{
+    border:2px solid powderblue;
+}
+
+
+.forget-pass{
+    text-decoration:none;
+}
